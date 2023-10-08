@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "./components/Project";
 import Container from "react-bootstrap/Container";
+import './components/Page.css';
 
 const projects = [
   {
@@ -66,18 +67,19 @@ const projects = [
 
 function Portfolio() {
   return (
-    <Container className="pt-5 d-flex justify-content-between  flex-wrap ">
-    {projects.map((project) => (
-      <Project
-        title={project.title}
-        description={project.description}
-        github={project.github}
-        livelink={project.livelink}
-        image={project.image}
-      />
-    ))}
-    </Container>
+    <div className="page-background"> {/* Apply the background color style */}
+      <Container className="page pt-5 d-flex justify-content-between flex-wrap">
+        {projects.map((project) => (
+          <Project
+            title={project.title}
+            description={project.description}
+            github={project.github}
+            livelink={project.livelink}
+            image={project.image}
+          />
+        ))}
+      </Container>
+    </div>
   );
 }
-
 export default Portfolio;

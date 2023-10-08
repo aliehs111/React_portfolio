@@ -1,0 +1,47 @@
+.page {
+    background-color: rgb(186, 181, 181);}
+
+.header {
+    background-color: #003249 !important;
+}
+
+.name {
+    color: #e36397 !important;
+    font-size: 50px !important;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+}
+
+.btn {
+    background-color: #003249 !important;
+    color: #003249 !important;
+    border-color: #e36397 !important;
+    color: rgb(186, 181, 181) !important;
+}
+.card-border {
+    border-color: #e36397 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+}
+
+
+.page-background {
+    background-color: rgb(186, 181, 181);
+    min-height: 100vh; 
+    overflow: hidden;
+  }
+
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+   
+  }
+
+  .contact-container .custom-form {
+    max-width: "80%" !important; 
+  }
+  

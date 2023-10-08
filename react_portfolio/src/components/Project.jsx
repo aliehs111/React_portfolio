@@ -1,14 +1,15 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import "./Page.css";
 
 function Project({image, title, description, github, livelink}) {
-  const imageSize = {
-    width: "286px",
-    height: "200px",
-  };
+  // const imageSize = {
+  //   width: "286px",
+  //   height: "200px",
+  // };
   return (
-    <Card className="project mb-4"style={{maxWidth: "50%"}}>
+    <Card className="project mb-4 card-border"style={{maxWidth: "50%"}}>
       <div style={{}}>
         <Card.Img variant="top" src={image} />
       </div>
@@ -17,8 +18,8 @@ function Project({image, title, description, github, livelink}) {
         <Card.Text>
           {description}
         </Card.Text>
-        <Card.Link href={github} className="btn btn-primary">GitHub</Card.Link>
-        <Card.Link href={livelink} className="btn btn-primary mx-4"variant="primary">Live Application</Card.Link>
+        <Card.Link href={github} className="btn">GitHub</Card.Link>
+        <Card.Link href={livelink} className="btn mx-4"variant="primary">Live Application</Card.Link>
       </Card.Body>
     </Card>
   );

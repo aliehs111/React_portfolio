@@ -1,9 +1,13 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
+import './components/Page.css';
 
 function Contact() {
   return (
-    <Form>
+    <div className='page contact-container'>
+      <h1 style={{color: "#003249"}}>Contact</h1>
+      
+    <Form className="custom-form" >
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Name</Form.Label>
         <Form.Control type="" placeholder="name" />
@@ -17,6 +21,7 @@ function Contact() {
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
     </Form>
+    </div>
   );
 }
 

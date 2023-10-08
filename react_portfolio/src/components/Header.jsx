@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header({updatePage}) {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" bg='secondary'data-bs-theme="light">
       <Container>
         <Navbar.Brand href="#home">Sheila McGovern</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

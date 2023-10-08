@@ -1,1 +1,7 @@
 
+@media(max-width: 768px) {
+    .project {
+        max-width: 100% !important;
+    }
+}
+

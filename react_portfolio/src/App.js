@@ -6,7 +6,7 @@ import Resume from './Resume';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { useState } from 'react';
-import Project from './components/Project';
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('');
@@ -16,7 +16,7 @@ function App() {
       case '':
         return <About />;
       case 'portfolio':
-        return <Project />;
+        return <Portfolio />;
       case 'contact':
         return <Contact />;
       case 'resume':

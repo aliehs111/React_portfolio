@@ -6,7 +6,7 @@ import "./components/Page.css";
 
 function About() {
   return (
-    <div className="page">
+   
       <Container fluid>
         <Row>
           <Col>Image to go here</Col>
@@ -16,7 +16,7 @@ function About() {
           <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore ullam adipisci, nisi labore quisquam ipsa provident voluptatibus asperiores non tempore pariatur amet quo? Tempore dolorem sit, iure itaque repudiandae voluptas!</Col>
         </Row>
       </Container>
-    </div>
+  
   );
 }
 

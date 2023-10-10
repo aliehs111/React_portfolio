@@ -4,7 +4,7 @@ import "./Page.css";
 
 function Project({ image, title, description, github, livelink }) {
   return (
-    <Card className="project mb-4 card-border" style={{ maxWidth: "50%" }}>
+    <Card className="project mb-4 card-border" style={{ maxWidth: "49%" }}>
       <div className="card-image-container">
         <Card.Img className="card_image" variant="top" src={image} />
       </div>

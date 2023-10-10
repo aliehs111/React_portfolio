@@ -6,6 +6,7 @@ import Resume from './Resume';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { useState } from 'react';
+import Container from 'react-bootstrap/esm/Container';
 
 
 function App() {
@@ -31,9 +32,9 @@ function App() {
   return (
     <div className="App">
       <Header updatePage={updatePage}/>
-      <main>
+      <Container fluid className='page min-vh-80'>
         {renderPage()}
-      </main>
+      </Container>
       <Footer />
     </div>
   );

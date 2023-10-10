@@ -1,5 +1,6 @@
 .page {
   background-color: rgb(186, 181, 181);
+  min-height: 75vh;
 }
 /* header */
 .header {
@@ -62,13 +63,7 @@
     width: auto;
     height: auto;
   }
-  
-/* component backgrounds */
-.page-background {
-  background-color: rgb(186, 181, 181);
-  min-height: 100vh;
-  overflow: hidden;
-}
+
 
 /* contact form styling */
 .contact-container {
@@ -79,7 +74,7 @@
 }
 
 .contact-container .custom-form {
-  max-width: 80% !important;
+  width: 50% !important;
 }
 
 .outline {

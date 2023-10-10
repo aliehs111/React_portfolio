@@ -3,5 +3,8 @@
     .project {
         max-width: 100% !important;
     }
+    .contact-container .custom-form {
+        width: 96% !important;
+    }
 }
 

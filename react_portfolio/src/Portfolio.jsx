@@ -74,10 +74,11 @@ const projects = [
 
 function Portfolio() {
   return (
-    <div className="page-background"> {/* Apply the background color style */}
-      <Container className="page pt-5 d-flex justify-content-between flex-wrap">
+   
+      <Container className="pt-5 d-flex justify-content-between flex-wrap">
         {projects.map((project) => (
-          <Project
+          <Project 
+          key={project.title}
             title={project.title}
             description={project.description}
             github={project.github}
@@ -86,7 +87,7 @@ function Portfolio() {
           />
         ))}
       </Container>
-    </div>
+  
   );
 }
 export default Portfolio;

@@ -1,5 +1,5 @@
 .page {
-  background-color: rgb(186, 181, 181);
+  background-color: whitesmoke !important;
   min-height: 75vh;
 }
 /* header */
@@ -12,6 +12,8 @@
   font-size: 50px !important;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
+
+
 .project {
   background-color: #003249 !important;
 }
@@ -82,3 +84,21 @@
   border-radius: 5px !important;
 }
 
+
+
+/* Styles for normal navigation links */
+.nav-link {
+  color: grey; /* Default font color */
+  transition: color 0.3s; /* Smooth color transition on hover */
+  text-decoration: none; /* Remove underline by default */
+}
+
+/* Styles for navigation links on hover */
+.nav-link:hover {
+  color: #e36397 !important; /* Font color changes to pink on hover */
+}
+
+/* Styles for active navigation links */
+.nav-link.active {
+  color: #e36397 !important; /* Font color is pink for active links */
+}

@@ -3,6 +3,7 @@ import Project from "./components/Project";
 import Container from "react-bootstrap/Container";
 import './components/Page.css';
 
+
 const projects = [
   {
     title: "The Hive Event Planner",

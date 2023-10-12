@@ -47,7 +47,7 @@ function Contact() {
           <Form.Control className='outline' type="email" placeholder="name@example.com" onChange={handleEmailChange}/>
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Example textarea</Form.Label>
+          <Form.Label>Leave me a note!</Form.Label>
           <Form.Control className='outline' as="textarea" rows={3} onChange={handleMessageChange}/>
         </Form.Group>
         <p style={{color: "red"}}>{error}</p>
@@ -58,6 +58,10 @@ function Contact() {
 
       {/* Render the modal component */}
       <ContactModal show={showModal} handleClose={handleCloseModal} />
+      <br></br>
+      <h4>By the way, if you hate these forms, just call me directly or send me an email!</h4>
+      <h4>703-945-8464</h4>
+      <h4>smcgov11.11@gmail.com</h4>
     </div>
   );
 }

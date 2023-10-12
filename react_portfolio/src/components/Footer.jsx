@@ -1,27 +1,35 @@
-import React from 'react'
+import React from 'react';
 import Card from 'react-bootstrap/Card';
+import './Page.css';
 
 function Footer() {
   return (
     <div className='footer'>
-<Card className='footer'>
-      <Card.Header>Quote</Card.Header>
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p>
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.{' '}
-          </p>
-          <footer className="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
-        <p>This is the footer div</p>
+      <Card className='footer'>
+        <Card.Header className='text-center'>Sheila McGovern </Card.Header>
+        <Card.Body>
+          <div className="social-icons">
+            <a
+              href="https://github.com/aliehs111/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/assets/github-mark.png" alt="GitHub" className="logo" />
+            </a>
+
+            <a
+              href="https://www.heroku.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/assets/heroku-logo-solid-gradient.png" alt="Heroku" className="logo" />
+            </a>
+          </div>
+        </Card.Body>
+      </Card>
+      <p className='text-center'>2023</p>
     </div>
   )
 }
 
-export default Footer
+export default Footer;

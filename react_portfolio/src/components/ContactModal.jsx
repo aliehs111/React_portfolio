@@ -8,7 +8,7 @@ function ContactModal({ show, handleClose }) {
       <Modal.Header closeButton>
         <Modal.Title>Thank You!</Modal.Title>
       </Modal.Header>
-      <Modal.Body>Your message has been received.</Modal.Body>
+      <Modal.Body>Thanks for reaching out!  I will get back to you as soon as I can!</Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
           Close

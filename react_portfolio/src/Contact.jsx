@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import ContactModal from './components/ContactModal';
 import './components/Page.css';
+import Card from 'react-bootstrap/Card';
 
 function Contact() {
   const [showModal, setShowModal] = useState(false);
@@ -47,7 +48,7 @@ function Contact() {
           <Form.Control className='outline' type="email" placeholder="name@example.com" onChange={handleEmailChange}/>
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Leave me a note!</Form.Label>
+          <Form.Label>Please leave me a message so I can be prepared when I contact you!</Form.Label>
           <Form.Control className='outline' as="textarea" rows={3} onChange={handleMessageChange}/>
         </Form.Group>
         <p style={{color: "red"}}>{error}</p>
@@ -60,15 +61,17 @@ function Contact() {
       <ContactModal show={showModal} handleClose={handleCloseModal} />
       <br></br>
       <div>
-  <p>By the way, if you don't like contact forms, just call me directly or send me an email!</p>
-  <p>
+  <Card >
+    <Card.Body className="contact-card" >By the way, if you don't like contact forms, just call me directly or send me an email!<br>
+    </br>
     <span className="contact-info">
       <i className="fas fa-phone-alt"></i> Phone: <a href="tel:703-945-8464">703-945-8464</a>
     </span>
     <span className="contact-info">
       <i className="fas fa-envelope"></i> Email: <a href="mailto:smcgov11.11@gmail.com">smcgov11.11@gmail.com</a>
     </span>
-  </p>
+  </Card.Body>
+  </Card>
 </div>
 
      

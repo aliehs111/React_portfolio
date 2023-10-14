@@ -10,11 +10,11 @@ import Card from 'react-bootstrap/Card';
 const options = [
   {
     name: 'Backend Skills',
-    items: ['Node.js', 'Express.js', 'MySQL', 'MongoDB', 'GraphQL'],
+    items: ['Node.js', 'Express.js', 'MySQL', 'Sequelize', 'MongoDB', 'Mongoose', 'GraphQL', 'Apollo', 'REST API', 'APIs', 'JSON', 'JWT', 'Bcrypt', 'ORM'],
   },
   {
     name: 'Frontend Skills',
-    items: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap', 'Routing', 'Bulma'],
+    items: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap', 'Routing', 'Bulma', 'Material UI', 'Responsive Design', 'jQuery', 'AJAX', 'Handlebars', ]
   },
 ];
 
@@ -27,7 +27,7 @@ function Resume() {
       <br />
       <div className="d-flex justify-content-center align-items-center vh-60">
       <Card className="resume-card" >
-      <Card.Body>While my resume reflects several years of experience as a project manager in commercial construction, I would rather be a web developer. I am currently enrolled in the University of Richmond Coding Bootcamp, where I am learning the skills necessary to become a full-stack web developer. I am excited to apply my skills in a new career that will allow me to be creative and innovative. I am looking forward to the opportunity to work with a team of developers to create something amazing.</Card.Body>
+      <Card.Body>While my resume reflects several years of experience as a project manager in commercial construction, I would rather be a web developer. I have worked very hard and learned so much with the University of Richmond Coding Bootcamp studying fullstack web development. I am excited to apply my skills and really be able to contribute to a great team in a new career that will allow me to be creative and innovative. </Card.Body>
     </Card>
     </div>
       <br />

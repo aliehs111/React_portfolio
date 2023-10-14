@@ -59,9 +59,19 @@ function Contact() {
       {/* Render the modal component */}
       <ContactModal show={showModal} handleClose={handleCloseModal} />
       <br></br>
-      <h4>By the way, if you hate these forms, just call me directly or send me an email!</h4>
-      <h4>703-945-8464</h4>
-      <h4>smcgov11.11@gmail.com</h4>
+      <div>
+  <p>By the way, if you don't like contact forms, just call me directly or send me an email!</p>
+  <p>
+    <span className="contact-info">
+      <i className="fas fa-phone-alt"></i> Phone: <a href="tel:703-945-8464">703-945-8464</a>
+    </span>
+    <span className="contact-info">
+      <i className="fas fa-envelope"></i> Email: <a href="mailto:smcgov11.11@gmail.com">smcgov11.11@gmail.com</a>
+    </span>
+  </p>
+</div>
+
+     
     </div>
   );
 }

@@ -96,17 +96,75 @@
 
 /* Styles for normal navigation links */
 .nav-link {
-  color: grey; /* Default font color */
-  transition: color 0.3s; /* Smooth color transition on hover */
-  text-decoration: none; /* Remove underline by default */
+  color: grey; 
+  transition: color 0.3s; 
+  text-decoration: none; 
 }
 
-/* Styles for navigation links on hover */
+
 .nav-link:hover {
-  color: #e36397 !important; /* Font color changes to pink on hover */
+  color: #e36397 !important; 
 }
 
 /* Styles for active navigation links */
 .nav-link.active {
   color: #e36397 !important; /* Font color is pink for active links */
+}
+
+.resume-card {
+  max-width: 60% !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  font-size: 15px !important;
+
+}
+/* Style for the contact information */
+.contact-info {
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+  display: block !important;
+}
+
+/* Increase specificity for .contact-info */
+div .contact-info i {
+  margin-right: 10px !important;
+  color: #007BFF !important; /* Icon color */
+}
+
+div .contact-info a {
+  text-decoration: none !important;
+  color: #e36397 !important; /* Link color */
+  transition: color 0.3s ease !important;
+}
+
+div .contact-info a:hover {
+  color: #007BFF !important; /* Hover color */
+}
+/* Style for the profile photo */
+.profile-photo {
+  max-width: 300px; /* Adjust the maximum width as needed */
+  max-height: 300px; /* Adjust the maximum height as needed */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 10%; 
+  border: 5px solid #e36397 !important; 
+}
+.about-me {
+  font-size: 20px !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  font-size: 15px !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  text-align: center !important;
+  box-shadow: 5px 5px 5px #e36397 !important;
+  max-width: 60% !important;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 40px;
 }

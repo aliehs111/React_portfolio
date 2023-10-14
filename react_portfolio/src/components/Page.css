@@ -13,7 +13,6 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-
 .project {
   background-color: #003249 !important;
 }
@@ -24,11 +23,10 @@
   color: rgb(186, 181, 181) !important;
 }
 
-
 .logo {
-  width: 40px; 
-  height: 40px; 
-  margin-right: 10px; 
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .btn {
@@ -40,40 +38,39 @@
 
 /* Card Styling */
 .card-border {
-    border-color: #e36397 !important;
-    border-style: solid !important;
-    border-width: 2px !important;
-  }
-  
-  .card-body {
-    background-color: whitesmoke !important;
-    color: #003249 !important;
-    border-color: #e36397 !important;
-    border-style: solid !important;
-    border-width: 2px !important;
-    border-radius: 5px !important;
-    margin: 10px !important;
-    padding: 10px !important;
-    font-size: 20px !important;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    text-align: center !important;
-    box-shadow: 5px 5px 5px #003249 !important;
-  }
-  
-  .card-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-  }
-  
-  .card-image-container img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-  }
+  border-color: #e36397 !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+}
 
+.card-body {
+  background-color: whitesmoke !important;
+  color: #003249 !important;
+  border-color: #e36397 !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-radius: 5px !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  font-size: 20px !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  text-align: center !important;
+  box-shadow: 5px 5px 5px #003249 !important;
+}
+
+.card-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.card-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
 
 /* contact form styling */
 .contact-container {
@@ -92,18 +89,15 @@
   border-radius: 5px !important;
 }
 
-
-
 /* Styles for normal navigation links */
 .nav-link {
-  color: grey; 
-  transition: color 0.3s; 
-  text-decoration: none; 
+  color: grey;
+  transition: color 0.3s;
+  text-decoration: none;
 }
 
-
 .nav-link:hover {
-  color: #e36397 !important; 
+  color: #e36397 !important;
 }
 
 /* Styles for active navigation links */
@@ -116,7 +110,6 @@
   margin: 10px !important;
   padding: 10px !important;
   font-size: 15px !important;
-
 }
 /* Style for the contact information */
 .contact-info {
@@ -128,7 +121,7 @@
 /* Increase specificity for .contact-info */
 div .contact-info i {
   margin-right: 10px !important;
-  color: #007BFF !important; /* Icon color */
+  color: #007bff !important; /* Icon color */
 }
 
 div .contact-info a {
@@ -138,7 +131,7 @@ div .contact-info a {
 }
 
 div .contact-info a:hover {
-  color: #007BFF !important; /* Hover color */
+  color: #007bff !important; /* Hover color */
 }
 /* Style for the profile photo */
 .profile-photo {
@@ -146,20 +139,20 @@ div .contact-info a:hover {
   max-height: 300px; /* Adjust the maximum height as needed */
   width: auto; /* Maintain aspect ratio */
   height: auto; /* Maintain aspect ratio */
-  display: block; 
-  margin: 0 auto; 
-  border-radius: 10%; 
-  border: 5px solid #e36397 !important; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px 5px #e36397 !important;
 }
 .about-me {
   font-size: 20px !important;
   margin: 10px !important;
   padding: 10px !important;
-  font-size: 15px !important;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   text-align: center !important;
-  box-shadow: 5px 5px 5px #e36397 !important;
+  box-shadow: 5px 5px 5px 5px #e36397 !important;
   max-width: 60% !important;
+  justify-self: center !important;
 }
 
 .about-container {
@@ -167,4 +160,32 @@ div .contact-info a:hover {
   flex-direction: column;
   align-items: left;
   padding: 40px;
+}
+
+/* back to top button on portfolio page */
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.btn:hover {
+  background-color: #e36397 !important;
+  color: #003249 !important;
+}
+
+.carousel-ptag {
+  color: #e36397 !important;
+  font-size: 20px !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.carousel-container {
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid #e36397; 
 }

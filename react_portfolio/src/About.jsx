@@ -3,6 +3,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./components/Page.css";
+import "./components/CarouselAbout";
+import CarouselAbout from "./components/CarouselAbout";
+
 
 
 function About() {
@@ -12,10 +15,13 @@ function About() {
         <Col>
         <img src="/assets/myImage.jpeg" alt="my photo" className="profile-photo" />
         </Col>
-        <Col>Not sure what to go here</Col>
+        <Col>
+        <CarouselAbout/>
+        <p className="carousel-ptag">See all my projects on my Portfolio page!</p>
+        </Col>
       </Row>
       <Row>
-        <Col className="about-me">
+        <Col className="about-me mx-auto text-center">
           <h1>About Me</h1>
           <p>
             I am a full-stack web developer with a background in commercial

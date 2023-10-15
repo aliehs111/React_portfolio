@@ -50,9 +50,8 @@ function AccordionAbout() {
           will have to drop back and play D. That might mean doing my own
           estimating, writing and implementing a material logistics plan,
           visiting job sites and managing the field or addressing details and QC
-          issues. It's up to me to stay at work for as long as it takes to meet a deadline.  I am the one who handles the difficult conversations, and
-          negotiates solutions with clients and subcontractors to keep the
-          project moving forward, meet the contract obligations and protect the
+          issues. It's up to me to stay at work for as long as it takes to meet a deadline.  I am the one who handles the difficult conversations, and negotiates solutions with clients and subcontractors to keep the
+          project moving forward, meeting the contract obligations and protecting the
           company's interests.  I do all this while maintaining the most important aspect of business, <em>the relationships</em>.
         </Accordion.Body>
       </Accordion.Item>

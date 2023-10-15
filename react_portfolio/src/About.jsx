@@ -7,35 +7,55 @@ import "./components/CarouselAbout";
 import CarouselAbout from "./components/CarouselAbout";
 import AccordionAbout from "./components/AccordionAbout";
 
-
-
 function About() {
   return (
-    <Container fluid className="about-container">
+    <Container className="about-container">
       <Row>
         <Col>
-        <img src="/assets/myImage.jpeg" alt="my photo" className="profile-photo" />
+          <img
+            src="/assets/myImage.jpeg"
+            alt="my photo"
+            className="profile-photo"
+          />
         </Col>
-        <Col>
-      
-        <CarouselAbout/>
-       
-          <p className="carousel-ptag">This is the last 6 months of my life flashing before my eyes...learning full stack web development...bootcamp style.  Check out all these projects and more on my Portfolio page!</p>
-     
-        
+        <Col md={8}>
+          <CarouselAbout style={{ width: '80%', height: '500px' }} />
         </Col>
       </Row>
+      {/* <Row>
+        <Col></Col>
+        <Col>
+          <div className="caption">
+            <p className="carousel-ptag">
+              This is the last 6 months of my life flashing before my
+              eyes...learning full stack web development...bootcamp style. Check
+              out all these projects and more on my Portfolio page!
+            </p>
+          </div>
+        </Col>
+      </Row> */}
       <Row>
         <Col className="about-me mx-auto ">
           <h1 className="about-me-h1">About Me</h1>
           <p>
-           Ok...so here's where I am supposed to say here that I am a fullstack web developer.  However, I feel too humbled from what I have learned in University of Richmond Fullstack Coding Bootcamp to present myself as an expert.  While I somehow managed to do really well in the class, I still feel like there is so much I want learn.  I have so much respect for the developer community and I want to be a part of it.  It is because I put so much effort into this course that I know how much I don't know yet. But there's no doubt in my mind that I am up for any challenge and I'm confident in my ability to figure it out!
-           </p>
+            Ok...so here's where I am supposed to say here that I am a fullstack
+            web developer. I survived 6 months of the University of Richmond Coding Bootcamp
+            for fullstack web development. While I somehow managed to do really
+            well in the class, there is still so much I want learn. My
+            competitive nature kicks in when I'm working on some small detail on
+            an app and I am determined to meet any functionality the project
+            requires. I have so much respect for the developer community and I
+            want to be a part of it. I went all in and became very resourceful
+            getting through this course, which is why I have the wisdom to know
+            how much more this is to know.{" "}
+            <em>
+              But there's no doubt in my mind that I am up for any challenge and
+              I'm confident in my ability to figure it out!
+            </em>
+          </p>
           <AccordionAbout />
           <p>
-           <br />
-
-           
+            <br />
           </p>
         </Col>
       </Row>

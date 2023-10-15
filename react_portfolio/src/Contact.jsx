@@ -64,6 +64,7 @@ function Contact() {
   <Card >
     <Card.Body className="contact-card" >By the way, if you don't like contact forms, just call me directly or send me an email!<br>
     </br>
+    <br />
     <span className="contact-info">
       <i className="fas fa-phone-alt"></i> Phone: <a href="tel:703-945-8464">703-945-8464</a>
     </span>

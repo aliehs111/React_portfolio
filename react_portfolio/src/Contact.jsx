@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import ContactModal from './components/ContactModal';
 import './components/Page.css';
 import Card from 'react-bootstrap/Card';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
   const [showModal, setShowModal] = useState(false);
@@ -61,18 +63,18 @@ function Contact() {
       <ContactModal show={showModal} handleClose={handleCloseModal} />
       <br></br>
       <div>
-  <Card >
-    <Card.Body className="contact-card" >By the way, if you don't like contact forms, just call me directly or send me an email!<br>
-    </br>
-    <br />
-    <span className="contact-info">
-      <i className="fas fa-phone-alt"></i> Phone: <a href="tel:703-945-8464">703-945-8464</a>
-    </span>
-    <span className="contact-info">
-      <i className="fas fa-envelope"></i> Email: <a href="mailto:smcgov11.11@gmail.com">smcgov11.11@gmail.com</a>
-    </span>
-  </Card.Body>
-  </Card>
+      <Card>
+      <Card.Body className="contact-card">
+        By the way, if you don't like contact forms, just call me directly or send me an email!
+        <br /><br />
+        <div className="contact-info">
+          <FontAwesomeIcon icon={faPhoneAlt} /> Phone: <a href="tel:703-945-8464">703-945-8464</a>
+        </div>
+        <div className="contact-info">
+          <FontAwesomeIcon icon={faEnvelope} /> Email: <a href="mailto:smcgov11.11@gmail.com">smcgov11.11@gmail.com</a>
+        </div>
+      </Card.Body>
+    </Card>
 </div>
 
      

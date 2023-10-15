@@ -46,8 +46,8 @@ function About() {
             an app and I am determined to meet any functionality the project
             requires. I have so much respect for the developer community and I
             want to be a part of it. I went all in and became very resourceful
-            getting through this course, which is why I have the wisdom to know
-            how much more this is to know.{" "}
+            getting through this course, which is how I gained the wisdom to know
+            how much more there is to know.{" "}
             <em>
               But there's no doubt in my mind that I am up for any challenge and
               I'm confident in my ability to figure it out!

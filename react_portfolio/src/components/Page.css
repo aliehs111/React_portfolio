@@ -90,21 +90,19 @@
 }
 
 /* Styles for normal navigation links */
-.nav-link {
+/* .nav-link {
   color: grey;
   transition: color 0.3s;
   text-decoration: none;
-}
+} */
 
 .nav-link:hover {
   color: #e36397 !important;
 }
+
+
 .active {
   color: #e36397 !important;
-}
-/* Styles for active navigation links */
-nav.main-nav .nav-link.active {
-  color: #e36397 !important; /* Font color is pink for active links */
 }
 
 .resume-card {
@@ -246,6 +244,12 @@ div .contact-info a:hover {
   margin-bottom: 10px; /* Add spacing between list items */
  
 }
+/* Styles for active navigation links */
+.nav-link.active {
+  color: #e36397 !important;
+}
+
+
 
 
 

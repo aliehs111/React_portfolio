@@ -14,7 +14,7 @@ function Header({ updatePage }) {
       className="header"
     >
       <Container>
-        <Navbar.Brand href="#home" className="name">Sheila McGovern</Navbar.Brand>
+        <Navbar.Brand href="/" className="name">Sheila McGovern</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>

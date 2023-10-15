@@ -11,14 +11,14 @@ function About() {
   return (
     <Container className="about-container">
       <Row>
-        <Col>
+        <Col className="photo-col">
           <img
             src="/assets/myImage.jpeg"
             alt="my photo"
             className="profile-photo"
           />
         </Col>
-        <Col md={8}>
+        <Col md={8} className="carousel-col">
           <CarouselAbout style={{ width: '80%', height: '500px' }} />
         </Col>
       </Row>

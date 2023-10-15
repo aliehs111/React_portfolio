@@ -7,10 +7,10 @@ import "./Page.css";
 function Navigation() {
   return (
     <Nav>
-      <NavLink to="/">About Me</NavLink>
-      <NavLink to="/portfolio">Portfolio</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-      <NavLink to="/resume">Resume</NavLink>
+      <NavLink className="nav-link" to="/">About Me</NavLink>
+      <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
+      <NavLink className="nav-link" to="/contact">Contact</NavLink>
+      <NavLink  className="nav-link"to="/resume">Resume</NavLink>
     </Nav>
   );
 }

@@ -146,7 +146,7 @@ div .contact-info a:hover {
 .carousel-container {
   box-shadow: 5px 5px 5px 5px #003249 !important;
   /* margin: 10px !important; */
-  margin-left: auto !important;
+  /* margin-left: auto !important; */
 }
 
 
@@ -156,7 +156,7 @@ div .contact-info a:hover {
   padding: 10px !important;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   box-shadow: 5px 5px 5px 5px #003249 !important;
-  max-width: 70% !important;
+  /* max-width: 70% !important; */
   justify-self: left !important;
 }
 .about-me h1 {
@@ -166,7 +166,7 @@ div .contact-info a:hover {
   color: #e36397 !important;
 }
 
-.about-container {
+/* .about-container {
   display: flex !important;
   flex-direction: column;
   align-items: left;
@@ -174,7 +174,7 @@ div .contact-info a:hover {
   border-radius: 3% !important;
   margin: 10px !important;
 
-}
+} */
 
 /* back to top button on portfolio page */
 .back-to-top {

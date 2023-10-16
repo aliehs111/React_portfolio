@@ -9,9 +9,9 @@ import AccordionAbout from "./components/AccordionAbout";
 
 function About() {
   return (
-    <Container className="about-container">
-      <Row>
-        <Col className="photo-col">
+    <Container  className="about-container my-0 py-5">
+      <Row >
+        <Col  className="photo-col">
           <img
             src="/assets/myImage.jpeg"
             alt="my photo"
@@ -19,7 +19,7 @@ function About() {
           />
         </Col>
         <Col md={8} className="carousel-col">
-          <CarouselAbout style={{ width: '80%', height: '500px' }} />
+          <CarouselAbout style={{ width: '100%', height: '600px' }} />
         </Col>
       </Row>
       {/* <Row>
@@ -35,7 +35,7 @@ function About() {
         </Col>
       </Row> */}
       <Row>
-        <Col className="about-me mx-auto ">
+        <Col className="about-me ">
           <h1 className="about-me-h1">About Me</h1>
           <p>
             Ok...so here's where I am supposed to say here that I am a fullstack

@@ -110,14 +110,14 @@ const carouselItems = [
 ];
 
 const containerStyle = {
-  width: '600px',
-  height: '400px',
+  width: '100%',
+  height: 'auto',
   overflow: 'hidden',
 };
 
 const imageStyle = {
   width: '100%',
-  height: '400px', // Match the container height
+  height: '500px', // Match the container height
   objectFit: 'cover', // Preserve aspect ratio and cover the container
 };
 

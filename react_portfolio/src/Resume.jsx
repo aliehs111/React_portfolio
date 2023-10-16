@@ -20,7 +20,7 @@ const options = [
 
 function Resume() {
   return (
-    <div className="text-center mx-auto my-5">
+    <div className="text-center mx-auto py-5">
       <h1>My Resume</h1>
       <a href='SheilaMcGovern_CV.pdf' download="myname" className="btn" >Download Resume</a>
       <br />

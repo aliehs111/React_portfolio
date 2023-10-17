@@ -9,7 +9,7 @@ import AccordionAbout from "./components/AccordionAbout";
 
 function About() {
   return (
-    <Container  className="about-container my-0 py-5">
+    <Container  className="about-container mt-0 pt-4  ">
       <Row >
         <Col  className="photo-col">
           <img

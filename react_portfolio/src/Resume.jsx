@@ -1,9 +1,5 @@
 import React from "react";
-import Stack from "react-bootstrap/Stack";
 import "./components/Page.css";
-import { useState } from "react";
-import Button from "react-bootstrap/Button";
-import Offcanvas from "react-bootstrap/Offcanvas";
 import OffCanvasSkills from "./components/OffCanvasSkills";
 import Card from 'react-bootstrap/Card';
 
@@ -14,7 +10,7 @@ const options = [
   },
   {
     name: 'Frontend Skills',
-    items: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap', 'Routing', 'Bulma', 'Material UI', 'Responsive Design', 'jQuery', 'AJAX', 'Handlebars', ]
+    items: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap', 'Routing', 'Bulma', 'Responsive Design', 'jQuery', 'AJAX', 'Handlebars', ]
   },
 ];
 

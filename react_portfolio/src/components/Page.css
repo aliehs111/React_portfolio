@@ -1,11 +1,11 @@
 .page {
   background-color: #d6d3d3 !important;
-  min-height: 80vh;
+  min-height: 76vh;
 }
 /* header */
 .header {
   background-color: #003249 !important;
-  min-height: 150px !important;
+  min-height: 140px !important;
 }
 
 .name {

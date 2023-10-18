@@ -18,7 +18,7 @@ function Resume() {
   return (
     <div className="text-center mx-auto py-5">
       <h1>My Resume</h1>
-      <a href='SheilaMcGovern_CV.pdf' download="myname" className="btn" >Download Resume</a>
+      <a href='src/assets/SheilaMcGovern_CV.pdf' download="myname" className="btn" >Download Resume</a>
       <br />
       <br />
       <div className="d-flex justify-content-center align-items-center vh-60">

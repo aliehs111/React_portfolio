@@ -14,7 +14,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/assets/github-mark.png" alt="GitHub" className="logo" />
+              <img src="/src/assets/github-mark.png" alt="GitHub" className="logo" />
             </a>
 
             <a
@@ -22,14 +22,14 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/assets/heroku-logo-solid-gradient.png" alt="Heroku" className="logo" />
+              <img src="/src/assets/heroku-logo-solid-gradient.png" alt="Heroku" className="logo" />
             </a>
             <a
               href="https://www.linkedin.com/in/sheila-mcgovern-7a633669/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/assets/LI-In-Bug.png" alt="Heroku" className="logo" />
+              <img src="/src/assets/LI-In-Bug.png" alt="Heroku" className="logo" />
             </a>
           </div>
         </Card.Body>

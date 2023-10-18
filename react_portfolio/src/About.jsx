@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./components/Page.css";
-import "./components/CarouselAbout";
 import CarouselAbout from "./components/CarouselAbout";
 import AccordionAbout from "./components/AccordionAbout";
 import myImage from "./assets/myImage.jpeg";

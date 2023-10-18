@@ -6,6 +6,9 @@ import "./components/Page.css";
 import "./components/CarouselAbout";
 import CarouselAbout from "./components/CarouselAbout";
 import AccordionAbout from "./components/AccordionAbout";
+import myImage from "./assets/myImage.jpeg";
+
+
 
 function About() {
   return (
@@ -13,7 +16,7 @@ function About() {
       <Row>
         <Col className="photo-col">
           <img
-            src= "src/assets/myImage.jpeg"
+            src= {myImage}
             alt="my photo"
             className="profile-photo"
           />

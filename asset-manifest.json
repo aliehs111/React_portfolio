@@ -1,15 +1,40 @@
 {
   "files": {
     "main.css": "/React_portfolio/static/css/main.a83686d1.css",
-    "main.js": "/React_portfolio/static/js/main.87c55dda.js",
+    "main.js": "/React_portfolio/static/js/main.47f04360.js",
     "static/js/787.a2cb61a6.chunk.js": "/React_portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/grdn.png": "/React_portfolio/static/media/grdn.0dc1aaa052e8d1d4810c.png",
+    "static/media/hive_new.png": "/React_portfolio/static/media/hive_new.15b33955c123f2412754.png",
+    "static/media/garden.png": "/React_portfolio/static/media/garden.b6e2ed920052e804aa55.png",
+    "static/media/TestImage.png": "/React_portfolio/static/media/TestImage.ec7c050805c0a9ddd663.png",
+    "static/media/hv.png": "/React_portfolio/static/media/hv.f21ef85d6552e1af6735.png",
+    "static/media/text_editor.png": "/React_portfolio/static/media/text_editor.8746fce041088cf0018c.png",
+    "static/media/myImage.jpeg": "/React_portfolio/static/media/myImage.4f4dcecafb59fe95f214.jpeg",
+    "static/media/pwa.png": "/React_portfolio/static/media/pwa.89c40dd386e41cf7ff32.png",
+    "static/media/employee_tracker.png": "/React_portfolio/static/media/employee_tracker.e70926356c753d68c2f3.png",
+    "static/media/social_network_api.png": "/React_portfolio/static/media/social_network_api.b50a570682c6ef6c6478.png",
+    "static/media/ecommerce_backend.png": "/React_portfolio/static/media/ecommerce_backend.c32d54f0cf37d2feeffc.png",
+    "static/media/quiz.png": "/React_portfolio/static/media/quiz.88a93e3bd7a12f01607b.png",
+    "static/media/code_quiz.png": "/React_portfolio/static/media/code_quiz.61b0a376863868b13e6a.png",
+    "static/media/scheduler.png": "/React_portfolio/static/media/scheduler.59e2b23eaded1646561d.png",
+    "static/media/workday_scheduler.png": "/React_portfolio/static/media/workday_scheduler.fee8fa3ddc6cc011b6d4.png",
+    "static/media/blog.png": "/React_portfolio/static/media/blog.e7c1bd95e8a9673958fc.png",
+    "static/media/weather_dashboard.png": "/React_portfolio/static/media/weather_dashboard.cf25a1c620cc608e6e78.png",
+    "static/media/readmegen.png": "/React_portfolio/static/media/readmegen.05c166a44bd3f45c1cc8.png",
+    "static/media/note_taker.png": "/React_portfolio/static/media/note_taker.1da0d8907138465ce483.png",
+    "static/media/r-me.png": "/React_portfolio/static/media/r-me.20386a69c52e8a61bfe4.png",
+    "static/media/password.jpg": "/React_portfolio/static/media/password.276467060cb4ab10b523.jpg",
+    "static/media/logo.png": "/React_portfolio/static/media/logo.f96f0d7535ffa6a66122.png",
+    "static/media/express-note.png": "/React_portfolio/static/media/express-note.679b9873134765b6af58.png",
+    "static/media/heroku-logo-solid-gradient.png": "/React_portfolio/static/media/heroku-logo-solid-gradient.44c88fa46bb7ba6a4cb5.png",
+    "static/media/SheilaMcGovern_CV.pdf": "/React_portfolio/static/media/SheilaMcGovern_CV.0423af22d0962081cde7.pdf",
     "index.html": "/React_portfolio/index.html",
     "main.a83686d1.css.map": "/React_portfolio/static/css/main.a83686d1.css.map",
-    "main.87c55dda.js.map": "/React_portfolio/static/js/main.87c55dda.js.map",
+    "main.47f04360.js.map": "/React_portfolio/static/js/main.47f04360.js.map",
     "787.a2cb61a6.chunk.js.map": "/React_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a83686d1.css",
-    "static/js/main.87c55dda.js"
+    "static/js/main.47f04360.js"
   ]
 }

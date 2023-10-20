@@ -11,8 +11,8 @@ The documentation for the React-bootstrap was very helpful in integrating React 
 This YouTube video by Sonny Sangha helped me better understand props in React: https://www.youtube.com/watch?v=kHJSNFU7H4U&t=707s
 
 ## Links and Visuals
-This application is deployed here on GitHub:  <br>
+This application is deployed here on GitHub: https://aliehs111.github.io/React_portfolio/ <br>
 This is the GitHub Repository: https://github.com/aliehs111/React_portfolio
 
-![Alt text](./public/assets/Screenshot%202023-10-16%20at%2010.47.41%20AM.png)
-![Alt text](./public/assets/Screenshot%202023-10-16%20at%2010.47.25%20AM.png)
+![Alt text](./src/assets/Screenshot%202023-10-16%20at%2010.47.41%20AM.png)
+![Alt text](./src/assets/Screenshot%202023-10-16%20at%2010.47.25%20AM.png)

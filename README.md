@@ -18,6 +18,7 @@ https://github.com/rafgraph/spa-github-pages
 ## Links and Visuals
 This application is deployed here on GitHub: https://aliehs111.github.io/React_portfolio/ <br>
 This is the GitHub Repository: https://github.com/aliehs111/React_portfolio
+![Screenshot 2023-10-16 at 10 47 41 AM](https://github.com/aliehs111/React_portfolio/assets/128503077/8a705dc8-9a02-4c56-8218-c0a00f210af6)
 
 ![Alt text](/src/assets/Screenshot%202023-10-16%20at%2010.47.41%20AM.png)
 ![Alt text](/src/assets/Screenshot%202023-10-16%20at%2010.47.25%20AM.png)

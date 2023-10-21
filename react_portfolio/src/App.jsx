@@ -16,7 +16,7 @@ function App() {
           <Navigation />
         </Header>
         <div className='page min-vh-80'>
-          <Routes>
+          <Routes basename="/React_portfolio">
             <Route path="/" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />

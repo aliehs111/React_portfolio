@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import './Page.css';
+import { Link } from "react-router-dom";
 
 function Header({ updatePage }) {
   return (
@@ -14,7 +15,9 @@ function Header({ updatePage }) {
       className="header"
     >
       <Container>
-        <Navbar.Brand href="/" className="name">Sheila McGovern</Navbar.Brand>
+      <Navbar.Brand className="name">
+          <Link className="name" style={{ textDecoration: 'none' }} to="/">Sheila McGovern</Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>

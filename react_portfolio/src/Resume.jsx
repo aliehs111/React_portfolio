@@ -25,7 +25,7 @@ function Resume() {
       <br />
       <div className="d-flex justify-content-center align-items-center vh-60">
       <Card className="resume-card" >
-      <Card.Body>While my resume reflects several years of experience as a project manager in commercial construction, I would rather be a web developer. I have worked very hard and learned so much with the University of Richmond Coding Bootcamp studying fullstack web development. I am excited to apply my skills and really be able to contribute to a great team in a new career that will allow me to be creative and innovative. </Card.Body>
+      <Card.Body>While my resume reflects several years of experience as a project manager in commercial construction, I would rather be a web developer. I have worked very hard and learned so much with the University of Richmond Coding Bootcamp studying fullstack web development. I am excited to apply my skills to contribute and learn more with a great team in a new career. </Card.Body>
     </Card>
     </div>
       <br />

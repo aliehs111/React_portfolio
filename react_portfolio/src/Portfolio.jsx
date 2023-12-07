@@ -16,8 +16,18 @@ import SvgLogoImage from "./assets/logo.png"
 import ReadmeGenImage from "./assets/readmegen.png"
 import PsswrdImage from "./assets/password.jpg"
 import QuizImage from "./assets/quiz.png"
+import Proj3 from "./assets/Project3.png"
 
 const projects = [
+  {
+    title: "Architectural Assistant",
+    description:
+      "A full-stack MERN application that allows users to create their own portfolio showcasing their talent. Onced signed in, users can create, edit, and delete projects. This application uses MongoDB, Express.js, React.js, and Node.js.",
+    github: "https://github.com/jonesmatr/Visual-Architecture-Assistant.git",
+    livelink: "https://vaa102423v2-99a6aa2a15e0.herokuapp.com/",
+    image: Proj3,
+  },
+
   {
     title: "The Hive Event Planner",
     description:

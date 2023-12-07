@@ -2,7 +2,7 @@ import React from "react";
 import "./components/Page.css";
 import OffCanvasSkills from "./components/OffCanvasSkills";
 import Card from 'react-bootstrap/Card';
-import SmResume from "./assets/SheilaMcGovern_CV.pdf";
+import SmResume from "./assets/SheilaMcGovern_Resume";
 
 const options = [
   {
@@ -19,7 +19,7 @@ function Resume() {
   return (
     <div className="text-center mx-auto py-5">
       <h1>My Resume</h1>
-      <a href={SmResume} download="SheilaMcGovern_CV.pdf" className="btn">Download Resume</a>
+      <a href={SmResume} download="SheilaMcGovern_Resume" className="btn">Download Resume</a>
 
       <br />
       <br />
